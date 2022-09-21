@@ -41,3 +41,18 @@ The next sheet presents the Trip Duration broken down by User Type and Gender ea
 This is some of the sheets presented in the Tableau Story presenting Bike Sharing Data in Des Moines, Iowa during the year 2019. 
 
 # Summary
+
+Here are the details of what the pieces of data is representing. In Figure 1, we see that the checkout time is after Midnight. This is the time where not a lot of bikers are renting the bikes in Des Moines. The majority of people renting the Citi Bikes are males which is presented in Figure 2. The interesting sheets in this story is the "Heatmap" charts displaying the number of trips in each hour of the day of the week. In Figure 3, we see the best times to rent a Citi Bike is on any weekday between the times 8:00am, 5:00pm, and 6:00pm. Any day of the week between 12:00 modnight to 5:00am is not the best time to rent a Citi Bike. What was interesting is the number of trips during the evening on the weekends is lower than the number of trips generated in the weekday at that exact timeframe. Figure 4 shows the majority of trips are rented out by males in that said timeframe. The highest trip durations are made in that same timeframe by Females as well. However, the count is lower than males. What is wrong with this portion of the story is it may not convince other investors to be part of the CitiBike sharing program in Iowa. We may need more information accurately describing who, why, and where the customers are renting from CityBike. 
+
+For example, here is a chart that overviews the average trip duration by the customer's birth year. Here is a chart that displays the average trip duration for each customer in New York City by birth year. 
+
+## Figure 6
+<img width="1533" alt="Screen Shot 2022-09-21 at 11 21 27 AM" src="https://user-images.githubusercontent.com/104328106/191570308-aca02507-070e-4caf-aaf5-3268c1a0d2cb.png">
+
+There is a fallacy that this chart is displaying. The years of the charts dispays birth years between 1885 through around 2003 or 2004. CitiBike was founded in 2013. It may be comic relief but it is not possible somebody born in 1885 is renting out the bikes. However, this may be an improvement to the story needed to convince investors to invest to the program. 
+
+Here is another sheet displaying the top starting location where people rent out the bikes in New York City. 
+
+<img width="1466" alt="Screen Shot 2022-09-21 at 11 30 24 AM" src="https://user-images.githubusercontent.com/104328106/191571903-2ffe542e-141e-4c0b-a7a9-25d0612fa5f0.png">
+
+We can clearly see the top location of renting out the bikes are in Manhattan, a borough in New York City. There are some locations where people rent bikes in the Bronx, and Queens, and in Brooklyn. The fallacy of this sheet is it is relying on data containg customers having irregular birthyears. This would be called an outlier. We would have to do more data cleaning and parsing to get the most accurate description of where customers are renting the CitiBikes.  
